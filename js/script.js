@@ -19,6 +19,7 @@ $(function(){
 
     /////// Landing
     $(".text .img").fadeIn(2000);
+    $(".info ").fadeIn(2000);
     
     $(window).scroll(function(){   
         ///////////// Navbar
@@ -36,8 +37,7 @@ $(function(){
             }
         });
 
-        /////// Landing
-        $(".info ").fadeIn(3000);
+    
 
         ///////////// About
         if($(window).scrollTop() > ($(`.about`).offset().top + $(`.about`).outerHeight() - $(window).innerHeight())){
